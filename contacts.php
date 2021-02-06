@@ -13,14 +13,14 @@ if(isset($_REQUEST['vname']))
     else
         echo"Send Failed:".mysql_error();
     echo"&nbsp;&nbsp;&nbsp;<a herf='contacts.php'>[BAck to contacts]</a>";
-}
-else { ?>
+} ?>
+
 <html>
 <head>
     <title>Contacts Page</title>
 </head>
 <body>
-<table border = "2">
+<table>
     <tr><th><h1>this is 17pa1a0514 page Contact us</th></h1></tr>
     <tr><td>
     <form action = "contacts.php" method="POST" enctype = "multipart/form-data">
@@ -39,6 +39,3 @@ else { ?>
 </table>
 </body>
 </html>
-<?php
-}
-?>
